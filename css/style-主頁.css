@@ -105,18 +105,18 @@ padding-bottom: 2px;
    #myCarousel .item {height: 400px; }
 
    #slide1 {
-     background: url('../pic/輪播1_L.jpg')  no-repeat;
+     background: url('../pic/輪播1_L.JPG')  no-repeat;
      background-size: cover;
 
    }
 
    #slide2 {
-     background: url('../pic/輪播2_L.jpg') no-repeat;
+     background: url('../pic/輪播2_L.JPG') no-repeat;
       background-size: cover;
    }
 
    #slide3 {
-     background: url('../pic/輪播3_L.jpg')no-repeat;
+     background: url('../pic/輪播3_L.JPG')no-repeat;
       background-size: cover;
    }
 
