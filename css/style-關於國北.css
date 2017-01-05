@@ -134,14 +134,23 @@ width: 260px;
 }
 
 .morebg{
-
-
-  background-color: #7f7f7f
+  background-color: #7f7f7f;
 }
 
 .morebg p{
-  margin-top: 150px;
+  margin-top: 120px;
+  padding: 10px;
+  padding-bottom: 128px;
+  background-color: #7f7f7f;
   color: #ffffff;
+}
+
+.morebg img{
+  /*width: 100%;*/
+  position: absolute;
+  width: 320px;
+  height: 295px;
+  border-radius: 3px;
 }
 
 /* --------------------------------------
@@ -192,10 +201,13 @@ margin-top: 60px;
     background-color: #e4e2e3;
   }
 .row5 p{
-
+  margin-top: 30px;
   line-height: 80px;
 }
+.row5 h3{
 
+  margin-top: 70px;
+}
 /* --------------------------------------
    row6
    -------------------------------------- */

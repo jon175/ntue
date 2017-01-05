@@ -105,20 +105,21 @@ padding-bottom: 2px;
    #myCarousel .item {height: 400px; }
 
    #slide1 {
-     background: url('../pic/banner1.png')  no-repeat;
+     background: url('../pic/輪播1_L.jpg')  no-repeat;
      background-size: cover;
 
    }
 
    #slide2 {
-     background: url('../pic/banner4-1.png') no-repeat;
+     background: url('../pic/輪播2_L.jpg') no-repeat;
       background-size: cover;
    }
 
    #slide3 {
-     background: url('../pic/05.jpg')no-repeat;
+     background: url('../pic/輪播3_L.jpg')no-repeat;
       background-size: cover;
    }
+
 
 .row2{
   margin: auto;
@@ -258,7 +259,7 @@ text-decoration: none;
 .row5{
   margin-top: 30px;
   height: 480px;
-  background-image: url("banner4-1.png");
+  background-image: url("../pic/校園事件背景.png");
   background-color: #efefef;
   background-repeat: no-repeat;
   background-size: cover;
