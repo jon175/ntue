@@ -109,39 +109,78 @@ padding-bottom: 2px;
   font-size: 26px;
   text-decoration: none;
 }
+
 /* --------------------------------------
    row2
    -------------------------------------- */
-.row2{
-  margin-top: 50px;
-  width: 100%;
-  margin-bottom: 50px;
-  background-color: #fafafa;
+   .row2{
+  
+     margin-top: 20px;
+   }
+
+   .front{
+     background-color: #efefef;
+     background-image: url("../pic/test1.jpg");
+   }
+
+.card1{
+
+margin-right: 10px;
+
 }
 
-/* --------------------------------------
-   row3
-   -------------------------------------- */
+.card2{
 
-   .row3{
-     width: 100%;
-     margin-bottom: 50px;
-    background-color: #fafafa;
-   }
-   .row3 p{
 
-     font-family: "微軟正黑體";
-   }
+margin-right: 10px;
+}
+.card3{
 
-/* --------------------------------------
-      row4
-   -------------------------------------- */
-   .row4{
-     width: 100%;
-     margin-bottom: 50px;
-     background-color: #fafafa;
-   }
 
+margin-right: 10px;
+}
+.card4{
+}
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 365px;
+	height: 480px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.8s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
 
 /* --------------------------------------
    row6
@@ -170,13 +209,6 @@ margin-left: 260px;
 
 .fl{
     color: #ffffff;
+    font-size: 18px;
+    margin-top: 20px;
 }
-
-
-/* --------------------------------------
-  RWD
-   -------------------------------------- */
-
-
-   /* Extra small devices (phones, less than 768px) */
-   /* No media query since this is the default in Bootstrap */
