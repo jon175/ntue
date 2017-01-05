@@ -1,0 +1,5 @@
+/* 嵌入字型設定 */
+@font-face {
+    font-family: "華康行書體";
+    src: url(華康行書體.TTF);
+}

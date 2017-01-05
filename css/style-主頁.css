@@ -1,0 +1,678 @@
+/* --------------------------------------
+   公設
+   -------------------------------------- */
+
+body{
+width:100%;
+margin:0;
+padding:0;
+
+}
+.container{
+  margin:0;
+  padding:0;
+  width:100%;
+  border-width: 1px;
+  border-color: #000000;
+  position: relative;
+}
+
+.container-fluid{
+padding: 0px;
+}
+
+li{
+  list-style: none;
+}
+
+.line{
+border-left: solid;
+border-left-width: 2px;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.k:hover{
+  text-decoration: none;
+color: #fff000;
+
+}
+
+.row{
+
+  margin: 0px;
+}
+
+
+/* --------------------------------------
+   row-1
+   -------------------------------------- */
+
+   .row-1{
+     width: 100%;
+   margin-top: 80px;
+
+   }
+
+   .row-1 img{
+   margin-bottom: 20px;
+     margin-left:80px;
+   }
+
+   .swe{
+   background-color: #efefef;
+   }
+
+   /* --------------------------------------
+      row1
+      -------------------------------------- */
+
+.row1{
+  margin: auto;
+background-color: #7f7f7f;
+text-align: center;
+width:100%;
+padding-top: 12px;
+padding-bottom: 2px;
+
+}
+
+.row1 a{
+  font-family: "華康行書體";
+  color: #ffffff;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+
+/* --------------------------------------
+   Carousel row2
+   -------------------------------------- */
+
+#myCarousel {
+     font-size: 1rem;
+     width: 100%;
+   }
+
+   .carousel-caption {
+     font-size: 1.5em;
+   }
+
+   .carousel-caption h4 {
+     font-size: 2em;
+   }
+
+   #myCarousel .item {height: 400px; }
+
+   #slide1 {
+     background: url('../pic/banner1.png')  no-repeat;
+     background-size: cover;
+
+   }
+
+   #slide2 {
+     background: url('../pic/banner4-1.png') no-repeat;
+      background-size: cover;
+   }
+
+   #slide3 {
+     background: url('../pic/05.jpg')no-repeat;
+      background-size: cover;
+   }
+
+.row2{
+  margin: auto;
+   width: 100%;
+}
+
+/* --------------------------------------
+   Row3
+   -------------------------------------- */
+.row3{
+  margin: auto;
+  text-align: center;
+  background-color: #7f7f7f;
+  padding-top: 12px;
+  padding-bottom: 2px;
+  width: 100%;
+  width: 1000px;
+
+}
+.row3 a{
+  font-family: "華康行書體";
+  color: #ffffff;
+  font-size: 26px;
+  text-decoration: none;
+
+}
+
+/* --------------------------------------
+   row4
+   -------------------------------------- */
+
+.row4{
+  padding-top: 40px;
+text-decoration: none;
+margin-top: 30px;
+background-color: #464646;
+padding-bottom: 20px;
+/*width: 100%;*/
+padding-bottom: 50px;
+
+}
+
+
+
+.row4 a{
+color: #ffffff;
+text-align: center;
+font-size: 14px;　
+}
+
+.row4 p{
+  position: absolute;
+margin-left: 270px;
+color: #ffffff;
+font-size: 42px;
+font-family: "華康行書體";
+}
+
+.qq{
+
+  margin-left: 200px;
+}
+
+.mn1{
+  display: none;
+}
+
+.line1{
+border-bottom: solid;
+border-bottom-width: 2px;
+border-color: #ffffff;
+margin-left:270px;
+width:1000px;
+
+}
+.swi{
+  margin-left: 260px;
+  width: 1000px;
+  text-align: center;
+  border-radius: 3px;
+}
+.swi a{
+font-family: "華康行書體";
+font-size: 24px;
+text-decoration: none;
+}
+
+.news1{
+ background-color: #464646;
+ font-family: "微軟正黑體";
+ margin-top: 20px;
+
+}
+.news1 a {
+  margin-left: 210px;
+  text-decoration: none;
+}
+.news2{
+  margin-top: 20px;
+  padding-bottom: 60px;
+ font-family: "微軟正黑體";
+ background-color: #464646;
+}
+.news2 a {
+margin-right: 1px;
+text-decoration: none;
+}
+
+.button a{
+  position: absolute;
+  font-family: "微軟正黑體";
+  padding: 7px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 3px;
+  margin-left: 1160px;
+  margin-top: -60px;
+  font-size: 14px;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  text-decoration: none;
+}
+
+.button :hover{
+  color: #fff000;
+  border: solid 2px #fff000;
+  text-decoration: none;
+}
+
+.button3{
+
+  display: none;
+}
+/* --------------------------------------
+   row5
+   -------------------------------------- */
+.row5{
+  margin-top: 30px;
+  height: 480px;
+  background-image: url("banner4-1.png");
+  background-color: #efefef;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*width: 100%;*/
+}
+
+.row5 p{
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-left: 270px;
+  color: #ffffff;
+  font-size: 42px;
+  font-family: "華康行書體";
+}
+
+.mn2{
+  display: none;
+}
+
+.button1 :hover{
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  text-decoration: none;
+}
+.button1 a{
+  font-family: "微軟正黑體";
+  padding: 7px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin-top: -80px;
+  border-radius: 3px;
+  margin-left: 1160px;
+  font-size: 14px;
+  color: #000000;
+  border: solid 2px #000000;
+  text-decoration: none;
+}
+
+.button4{
+
+  display: none;
+}
+
+.slider {
+      width: 50%;
+      margin: 100px auto;
+
+  }
+
+  .slick-slide {
+    margin: 0px 20px;
+  }
+
+  .slick-slide img {
+    width: 100%;
+    border-radius: 5px;
+    border: solid 2px #7f7f7f;
+    z-index: -20;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+      color: black;
+  }
+
+  .slider a{
+    text-decoration: none;
+    border-radius: 3px;
+    padding-left: 51px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position:absolute;
+    margin: auto;
+    margin-top: 250px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #7f7f7f;
+    z-index:1;
+    color: #ffffff;
+  }
+
+  .slider a:hover{
+    color: #fff000;
+    text-decoration: none;
+  }
+
+  .slider .pic01:hover{
+    transition: all ease 0.2s;
+      opacity: 0.9;
+  }
+
+  .slider .pic02:hover{
+    transition: all ease 0.2s;
+      opacity: 0.9;
+  }
+  .slider .pic03:hover{
+    transition: all ease 0.2s;
+      opacity: 0.9;
+  }
+  .slider img:hover{
+    transition: all ease 0.2s;
+    opacity: 0.5;
+    z-index: -20;
+  }
+
+
+
+  /* --------------------------------------
+     row6
+     -------------------------------------- */
+
+  .row6{
+    background-color: #7f7f7f;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  margin-top: 30px;
+  width: 100%;
+
+  }
+
+  .row6 img{
+  background-color: #7f7f7f;
+  margin-left: 260px;
+    width: 120px;
+    height: 120px;
+
+  }
+
+  .fp{
+
+  }
+
+  .fl{
+      color: #ffffff;
+      font-size: 18px;
+      margin-top: 20px;
+  }
+
+
+
+/* --------------------------------------
+  RWD
+   -------------------------------------- */
+
+
+   /* Extra small devices (phones, less than 768px) */
+   /* No media query since this is the default in Bootstrap */
+
+   /* Small devices (tablets, 320px and down) */
+   @media screen and (max-width: 320px) {
+
+     .row img{
+       margin-left:40px;
+     }
+
+     .button a {
+
+       display: none;
+
+     }
+     .button1 a {
+
+       display: none;
+     }
+     .mn1{
+        display: block;
+      font-family: "華康行書體";
+      font-size: 36px;
+      color: #ffffff;
+      margin:auto;
+      text-align: center;
+      margin-left: 110px;
+      text-decoration: none;
+     }
+
+     .mn1:hover{
+    color: #ffffff;
+    text-decoration: none;
+
+     }
+
+    .button3{
+            width: 100px;
+            margin: auto;
+            text-align: center;
+            display: block;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 3px;
+            color: #ffffff;
+            border-color: #ffffff;
+            text-decoration: none;
+          }
+    .button3 a:hover{
+        color: #fff000;
+        border-color: #fff000;
+         text-decoration: none;
+
+      }
+    .button3:hover{
+            color: #fff000;
+            border-color: #fff000;
+            text-decoration: none;
+    }
+    .mn2{
+        display: block;
+        font-family: "華康行書體";
+        font-size: 24px;
+        margin:auto;
+        margin-top: 10px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+     .mn2:hover{
+        color: #ffffff;
+        text-decoration: none;
+
+     }
+
+    .button4{
+           padding-bottom: 20px;
+            display: block;
+    }
+
+     .button4 a{
+           width: 100px;
+           margin: auto;
+           text-align: center;
+           display: block;
+           border-style: solid;
+           border-width: 1px;
+           border-radius: 3px;
+            color: #ffffff;
+           border-color: #ffffff;
+           text-decoration: none;
+    }
+
+    .button4 a:hover{
+           color: #fff000;
+           border-color: #fff000;
+         text-decoration: none;
+
+    }
+    .row4 p{
+          display: none;
+     }
+
+    .row5 p{
+          display: none;
+     }
+    .row5 .slider{
+          display: none;
+
+    }
+    .fl p{
+           margin: 0px;
+           padding: 0px;
+          font-size: 11px;
+    }
+
+}
+
+
+   /* Medium devices (desktops, 968px and down) */
+   @media screen and (max-width: 968px) {
+
+     .news1{
+       display: none;
+
+     }
+
+    .row1{
+    display: none;
+
+    }
+    .row3{
+    display: none;
+
+    }
+
+    .row5 {
+
+      height:50%;
+    }
+    .o{
+
+      display: none;
+    }
+    .slider {
+          width: 65%;
+
+      }
+
+      .line1{
+      display: none;
+      }
+
+      .button a {
+        margin: auto;
+        margin-left: 600px;
+        text-align: center;
+      }
+
+
+       .button1 a {
+             margin-left: 675px;
+
+       }
+      .row4 p{
+        font-size: 40px;
+        margin-top: 20px;
+       text-align: center;
+      }
+      .row5 p{
+         margin-left: 0px;
+         text-align: center;
+      }
+}
+
+   /* Large devices (large desktops, 1200px and down) */
+   @media screen and (max-width: 1200px) {
+
+     .button a {
+       margin-top: 40px;
+       margin: auto;
+       text-align: center;
+      margin-left: 500px;
+     }
+
+
+     .news2{
+       display: none;
+     }
+
+     .fl{
+       margin: auto;
+       text-align: center;
+       padding: 20px;
+       padding-bottom: 30px;
+
+     }
+
+}
+
+/* Large devices (large desktops, 1500px and down) */
+@media screen and (max-width: 1500px) {
+
+  .swi{
+    margin:0px;
+  }
+
+  .row4{
+
+   height: 80%;
+  }
+
+   .slider a{
+
+     display: none;
+   }
+
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/*@media (max-width: 1200px) {
+
+#myCarousel .item {height: 500px; width: 100%;}
+
+#myCarousel {font-size: 1.5rem;}
+
+#slide1 {
+  background: url('../pic/banner1.png') no-repeat;
+  background-size: cover;
+}
+
+#slide2 {
+  background: url('../pic/banner4-1.png') no-repeat;
+  background-size: cover;
+}
+
+#slide3 {
+  background: url('../pic/05.jpg') no-repeat;
+  background-size: cover;
+}
+}*/
+
+@media (max-width: 968px) {
+
+#myCarousel .item {height: 310px;}
+
+#myCarousel {
+  font-size: 0.8rem;
+}
+
+#slide1 {
+ background: url('../images/carousel_small_01.jpg') no-repeat;
+ background-size: cover;
+}
+
+#slide2 {
+ background: url('../images/carousel_small_02.jpg') no-repeat;
+ background-size: cover;
+}
+
+#slide3 {
+ background: url('../images/carousel_small_03.jpg') no-repeat;
+ background-size: cover;
+}
+}

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- 公設集 -->
+<script src="js/jquery.min.js"></script>
+<script src="js/script.js"></script>
+
+<!-- bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.min.js"></script>
+
+<!-- 公設集 -->
+<link type="text/css" rel="stylesheet" href="css/style-字型.css">
+<link type="text/css" rel="stylesheet" href="css/style-主頁.css">
+
+<!-- 文字 -->
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+<!-- slick -->
+<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <title>NTUE</title>
+</head>
+<body>
+
+  <div class="container-fluid">
+
+    <div class="row-1 row">
+      <a href="index.html"><img src="pic/logo.png"></a>
+      <nav class="navbar navbar-default navbar-fixed-top">
+
+  <div class="swe">
+    <div class="navbar-header">
+      <button class="navbar-toggle"
+              data-target="#navbar-hanburger"
+              data-toggle="collapse" type="button">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div> <!-- navbar-header -->
+
+    <div class="navbar-collapse collapse" id="navbar-hanburger">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+      </ul>
+
+      <form class="navbar-form navbar-left" role="search" action="http://www.google.com/search" method="get">
+        <input type="text" class="form-control" placeholder="Search" name="q">
+        <button type="submit" class="btn btn-default"  name="btnG" >
+          <span class="glyphicon glyphicon-search"></span>
+        </button>
+      </form>
+
+
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My account <strong class="caret"></strong></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"><span class="glyphicon glyphicon-wrench"></span> Update Profile</a></li>
+            <li class="divider"></li>
+            <li><a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a></li>
+
+          </ul>
+        </li>
+      </ul><!-- end nav pull-right -->
+
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-tasks"></span></a>
+          <ul class="dropdown-menu ">
+
+                <li><a href="關於國北.html" class="k ">關於國北</a></li>
+                <li><a href="學術單位.html" class="k">學術單位</a></li>
+                <li><a href="" class="k">行政單位</a></li>
+                <li><a href="" class="k">圖書館</a></li>
+                <li><a href="" class="k">華語文中心</a></li>
+                <li><a href="" class="k">推廣教育</a></li>
+                <li><a href="" class="k">招生資訊</a></li>
+                <li class="divider"></li>
+                <li><a href="" class="k">未來學生</a></li>
+                <li><a href="" class="k">學生家長</a></li>
+                <li><a href="" class="k">在校學生</a></li>
+                <li><a href="" class="k">進修人士</a></li>
+                <li><a href="" class="k">教職員工</a></li>
+                <li><a href="" class="k">畢業校友</a></li>
+
+          </ul>
+        </li>
+      </ul><!-- end nav pull-right -->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
+</div>
+
+<nav class="row1 row" >
+  <ul class="list-inline">
+    <li><a href="關於國北.html" class="k">關於國北</a></li>
+    <li ><a class="line"></a></li>
+    <li><a href="學術單位.html" class="k">學術單位</a></li>
+    <li ><a class="line"></a></li>
+    <li><a href="" class="k">行政單位</a></li>
+    <li ><a class="line"></a></li>
+    <li><a href="" class="k">圖書館</a></li>
+    <li ><a class="line"></a></li>
+    <li><a href="" class="k">華語文中心</a></li>
+    <li ><a class="line"></a></li>
+    <li><a href="" class="k">推廣教育</a></li>
+    <li ><a class="line"></a></li>
+    <li><a href="" class="k">招生資訊</a></li>
+  </ul>
+</nav><!-- nav -->
+
+<div class="row2 row">
+  <div  id="main">
+
+    <div class="row carousel slide" id="myCarousel">
+
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active" id="slide1">
+					<div class="carousel-caption">
+						<h4>Bootstrap 3</h4>
+						<p>Learn how to build your first responsive website
+							with the brand new Twitter Bootstrap 3 !</p>
+					</div><!-- end carousel-caption -->
+				</div><!-- end item -->
+
+				<div class="item" id="slide2">
+					<div class="carousel-caption">
+						<h4>F2E</h4>
+						<p>Learn how to build your first front-end website
+							with HTML5/CSS3/Javascript !</p>
+					</div><!-- end carousel-caption -->
+				</div><!-- end item -->
+
+				<div class="item" id="slide3">
+					<div class="carousel-caption">
+						<h4>IOT Arduino</h4>
+						<p>Learn how to build your first Interactive toy
+							with the super easy Arduino board!</p>
+					</div><!-- end carousel-caption -->
+				</div><!-- end item -->
+			</div><!-- end carousel-inner -->
+
+			<!-- Controls -->
+			<a class="left carousel-control" data-slide="prev" href="#myCarousel">
+				<span class="icon-prev"></span></a>
+			<a class="right carousel-control" data-slide="next" href="#myCarousel">
+				<span class="icon-next"></span></a>
+
+		</div><!-- end myCarousel -->
+
+  </div>
+
+</div>
+
+
+<nav class="row3 row ">
+  <ul class="list-inline">
+    <li><a href="" class="k">未來學生</a></li>
+    <li ><a class="line"></a></li>
+    <li><a href="" class="k">學生家長</a></li>
+    <li ><a class="line"></a></li>
+    <li><a href="" class="k">在校學生</a></li>
+    <li ><a class="line"></a></li>
+    <li><a href="" class="k">進修人士</a></li>
+    <li ><a class="line"></a></li>
+    <li><a href="" class="k">教職員工</a></li>
+    <li ><a class="line"></a></li>
+    <li><a href="" class="k">畢業校友</a></li>
+  </ul>
+</nav><!-- nav -->
+
+<div class="row4 row ">
+      <li><p>最新消息</p><a class="mn1">最新消息</a><li>
+    <ul class="nav nav-tabs swi">
+      <li><a class="qq"></a></li>
+      <li class="active"><a data-toggle="tab" href="#重點資訊">重點資訊</a></li>
+      <li><a data-toggle="tab" href="#校園消息">校園消息</a></li>
+      <li><a data-toggle="tab" href="#活動演講">活動演講</a></li>
+      <li><a data-toggle="tab" href="#招生訊息">招生訊息</a></li>
+    </ul>
+
+  <div class="tab-content">
+    <div id="重點資訊" class="tab-pane fade in active ">
+          <div class="col-lg-6 news1">
+          <ul>
+            <li><a class="k">2016-12-26 「2017年桃園市第一屆全國超級盃桌球錦標賽」競賽規程</a></li>
+            <li><a ></a></li>
+            <li><a class="k">2016-12-26 「中華民國大專校院106年度教職員工網球錦標賽」競賽規程</a></li>
+            <li><a ></a></li>
+            <li><a class="k">2016-12-21 106年B級暨C級裁判講習會</a></li>
+            <li><a></a></li>
+            <li><a class="k">2016-12-20 2017年港都盃全國田徑錦標賽</a></li>
+            <li><a></a></li>
+            <li><a class="k">2016-12-20 106年臺北市C級田徑教練及裁判講習</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-6  news2">
+            <ul>
+              <li><a class="k">2016-12-20 國立陽明大學於106年1月10日舉辦「創新教學工作坊」</a></li>
+              <li><a></a></li>
+              <li><a class="k">2016-12-14 2017東大彩色大地路跑 </a></li>
+              <li><a></a></li>
+              <li><a class="k">2016-12-13 2017年虎科盃桌球錦標賽 </a></li>
+              <li><a></a></li>
+              <li><a class="k">2016-12-13 OSIM sundowm marathon TAIPEI 2017 OSIM 台北馬拉松</a></li>
+          </ul>
+      </div>
+
+    </div>
+
+    <div id="校園消息" class="tab-pane fade">
+      <div class="col-lg-6 news1">
+      <ul>
+        <li><a class="k">2016-12-26 「2017年桃園市第一屆全國超級盃桌球錦標賽」競賽規程</a></li>
+        <li><a ></a></li>
+        <li><a class="k">2016-12-26 「中華民國大專校院106年度教職員工網球錦標賽」競賽規程</a></li>
+        <li><a ></a></li>
+        <li><a class="k">2016-12-21 106年B級暨C級裁判講習會</a></li>
+        <li><a></a></li>
+        <li><a class="k">2016-12-20 2017年港都盃全國田徑錦標賽</a></li>
+        <li><a></a></li>
+        <li><a class="k">2016-12-20 106年臺北市C級田徑教練及裁判講習</a></li>
+    </ul>
+  </div>
+  <div class="col-lg-6  news2">
+        <ul>
+          <li><a class="k">2016-12-20 國立陽明大學於106年1月10日舉辦「創新教學工作坊」</a></li>
+          <li><a></a></li>
+          <li><a class="k">2016-12-14 2017東大彩色大地路跑 </a></li>
+          <li><a></a></li>
+          <li><a class="k">2016-12-13 2017年虎科盃桌球錦標賽 </a></li>
+          <li><a></a></li>
+          <li><a class="k">2016-12-13 OSIM sundowm marathon TAIPEI 2017 OSIM 台北馬拉松</a></li>
+      </ul>
+  </div>
+    </div>
+
+    <div id="活動演講" class="tab-pane fade">
+      <div class="col-lg-6 news1">
+      <ul>
+        <li><a class="k">2016-12-26 「2017年桃園市第一屆全國超級盃桌球錦標賽」競賽規程</a></li>
+        <li><a ></a></li>
+        <li><a class="k">2016-12-26 「中華民國大專校院106年度教職員工網球錦標賽」競賽規程</a></li>
+        <li><a ></a></li>
+        <li><a class="k">2016-12-21 106年B級暨C級裁判講習會</a></li>
+        <li><a></a></li>
+        <li><a class="k">2016-12-20 2017年港都盃全國田徑錦標賽</a></li>
+        <li><a></a></li>
+        <li><a class="k">2016-12-20 106年臺北市C級田徑教練及裁判講習</a></li>
+    </ul>
+  </div>
+  <div class="col-lg-6  news2">
+        <ul>
+          <li><a class="k">2016-12-20 國立陽明大學於106年1月10日舉辦「創新教學工作坊」</a></li>
+          <li><a></a></li>
+          <li><a class="k">2016-12-14 2017東大彩色大地路跑 </a></li>
+          <li><a></a></li>
+          <li><a class="k">2016-12-13 2017年虎科盃桌球錦標賽 </a></li>
+          <li><a></a></li>
+          <li><a class="k">2016-12-13 OSIM sundowm marathon TAIPEI 2017 OSIM 台北馬拉松</a></li>
+      </ul>
+  </div>
+    </div>
+
+    <div id="招生訊息" class="tab-pane fade">
+      <div class="col-lg-6 news1">
+      <ul>
+        <li><a class="k">2016-12-26 「2017年桃園市第一屆全國超級盃桌球錦標賽」競賽規程</a></li>
+        <li><a ></a></li>
+        <li><a class="k">2016-12-26 「中華民國大專校院106年度教職員工網球錦標賽」競賽規程</a></li>
+        <li><a ></a></li>
+        <li><a class="k">2016-12-21 106年B級暨C級裁判講習會</a></li>
+        <li><a></a></li>
+        <li><a class="k">2016-12-20 2017年港都盃全國田徑錦標賽</a></li>
+        <li><a></a></li>
+        <li><a class="k">2016-12-20 106年臺北市C級田徑教練及裁判講習</a></li>
+    </ul>
+  </div>
+  <div class="col-lg-6  news2">
+        <ul>
+          <li><a class="k">2016-12-20 國立陽明大學於106年1月10日舉辦「創新教學工作坊」</a></li>
+          <li><a></a></li>
+          <li><a class="k">2016-12-14 2017東大彩色大地路跑 </a></li>
+          <li><a></a></li>
+          <li><a class="k">2016-12-13 2017年虎科盃桌球錦標賽 </a></li>
+          <li><a></a></li>
+          <li><a class="k">2016-12-13 OSIM sundowm marathon TAIPEI 2017 OSIM 台北馬拉松</a></li>
+      </ul>
+  </div>
+    </div>
+  </div>
+</div>
+
+  <div class="button"><a>Read more</a></div>
+  <div class="button3"><a>Click here</a></div>
+</div>
+
+
+<div class="row5 row">
+  <p>校園事件</p><div><a class="mn2">校園事件</a></div>
+  <section class="regular slider">
+     <div class="pic01">
+         <a>click & learn more</a>
+       <img src="pic/01.jpg"> </img>
+     </div>
+     <div class="pic02">
+        <a>click & learn more</a>
+       <img src="pic/02.jpg">
+     </div>
+     <div class="pic03">
+        <a>click & learn more</a>
+       <img src="pic/03.png">
+     </div>
+     <div class="pic01">
+        <a>click & learn more</a>
+       <img src="pic/01.jpg">
+     </div>
+     <div class="pic02">
+        <a>click & learn more</a>
+       <img src="pic/02.jpg">
+     </div>
+     <div class="pic03">
+        <a>click & learn more</a>
+       <img src="pic/03.png">
+     </div>
+   </section>
+<div class="button1 "><a>Read more</a></div>
+<div class="button4"><a>Click here</a></div>
+</div>
+
+
+<footer>
+  <div class="row6 row">
+    <div class="col-md-4 fp o" ><img src="pic/logo1.png" ></div>
+    <div class="col-md-8 fl">
+      <ul>
+        <li><p>電話：+886-2-2732-1104  +886-2-6639-6688</p></li>
+        <li><p>地址：10671 臺北市大安區和平東路2段134號 </p> </li>
+    </ul>
+    </div>
+ </div>
+</footer>
+  </container>
+  <!-- container -->
+</body>
+
+</html>
