@@ -1,0 +1,259 @@
+/* --------------------------------------
+  RWD
+   -------------------------------------- */
+
+
+   /* Extra small devices (phones, less than 768px) */
+   /* No media query since this is the default in Bootstrap */
+
+   /* Small devices (tablets, 340px and down) */
+   @media screen and (max-width: 340px) {
+
+     .row img{
+       margin-left:40px;
+     }
+     .mn1{
+        display: block;
+
+     }
+
+     /*row4*/
+
+    .row4 p{
+      display: none;
+     }
+    .button3{
+      margin-left: 94px;
+      margin-top: 10px;
+    }
+     /*row5*/
+    .row5 p{
+      display: none;
+     }
+     .button4{
+       margin-left: 94px;
+      margin-top: -50px;
+     }
+     .line4{
+       padding-bottom: 20px;
+       margin-top: 20px;
+     }
+     .mn2{
+       display: block;
+       margin-left: 110px;
+       padding-bottom: 50px;
+       margin-top: 40px;
+     }
+
+     /*row6*/
+    .fl p{
+       margin: 0px;
+       padding: 0px;
+      font-size: 10px;
+    }
+
+}
+
+   /* Medium devices (desktops, 992px and down) */
+   @media screen and (max-width: 992px) {
+
+/*row1*/
+
+  .row1{
+    display: none;
+  }
+
+/*row3*/
+
+  .row3{
+    display: none;
+}
+
+/*row4*/
+
+.row4 p{
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.swi{
+  display: none;
+}
+
+.line3{
+
+  display: block;
+}
+
+.news1{
+    display: none;
+}
+
+.button a {
+  display: none;
+}
+
+.button3{
+    display: block;
+}
+.button3 a{
+    padding: 16px;
+}
+
+
+/*row5*/
+
+.row5 {
+    height:50%;
+}
+
+.row5 p{
+
+  margin-left: 150px;
+}
+.row5 .slider {
+    display: none;
+}
+
+.line4{
+
+  display: block;
+}
+
+.button1 a {
+  display: none;
+}
+
+.button4{
+    display: block;
+}
+
+.button4 a{
+    padding: 16px;
+}
+
+
+/*row6*/
+
+.o {
+    display: none;
+}
+
+}
+
+/* Large devices (large desktops, 1500px and down) */
+@media screen and (max-width: 1500px) {
+
+/*row4*/
+
+  .swi{
+      width: 600px;
+      margin-left: 150px;
+  }
+
+  .row4 p{
+  position: relative;
+  margin-left: 150px;;
+
+  }
+  .qq{
+    margin: 0px;
+  }
+
+  .news1{
+    width: 700px;
+    margin-right: 0px;
+  }
+
+  .news1 a {
+    margin-left: 150px;
+
+  }
+
+  .news2{
+
+    display: none;
+  }
+
+  .row4{
+
+   height: 80%;
+  }
+
+  .button a{
+    position: absolute;
+    margin-left: 760px;
+    margin-top: -60px;
+
+  }
+
+/*row5*/
+
+  .slider {
+        width: 50%;
+        margin: 0px;
+        margin-left: 150px;
+
+    }
+
+   .slider a{
+
+     display: none;
+   }
+
+   .button1 a{
+     margin-top: -80px;
+     margin-left: 760px;
+   }
+
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/*@media (max-width: 1200px) {
+
+#myCarousel .item {height: 500px; width: 100%;}
+
+#myCarousel {font-size: 1.5rem;}
+
+#slide1 {
+  background: url('../pic/banner1.png') no-repeat;
+  background-size: cover;
+}
+
+#slide2 {
+  background: url('../pic/banner4-1.png') no-repeat;
+  background-size: cover;
+}
+
+#slide3 {
+  background: url('../pic/05.jpg') no-repeat;
+  background-size: cover;
+}
+}*/
+
+@media (max-width: 992px) {
+
+#myCarousel .item {height: 310px;}
+
+#myCarousel {
+  font-size: 0.8rem;
+}
+
+#slide1 {
+ background: url('../images/carousel_small_01.jpg') no-repeat;
+ background-size: cover;
+}
+
+#slide2 {
+ background: url('../images/carousel_small_02.jpg') no-repeat;
+ background-size: cover;
+}
+
+#slide3 {
+ background: url('../images/carousel_small_03.jpg') no-repeat;
+ background-size: cover;
+}
+}
