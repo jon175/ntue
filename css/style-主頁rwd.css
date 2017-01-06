@@ -212,27 +212,27 @@
    Media Queries
    -------------------------------------- */
 
-/*@media (max-width: 1200px) {
+@media (max-width: 340px) {
 
-#myCarousel .item {height: 500px; width: 100%;}
+#myCarousel .item {height: 310px; width: 100%;}
 
-#myCarousel {font-size: 1.5rem;}
+#myCarousel {font-size: 0.5rem;}
 
 #slide1 {
-  background: url('../pic/banner1.png') no-repeat;
+  background: url('../images/輪播1_S.png') no-repeat;
   background-size: cover;
 }
 
 #slide2 {
-  background: url('../pic/banner4-1.png') no-repeat;
+  background: url('../images/輪播2_S.png') no-repeat;
   background-size: cover;
 }
 
 #slide3 {
-  background: url('../pic/05.jpg') no-repeat;
+  background: url('../images/輪播3_S.png') no-repeat;
   background-size: cover;
 }
-}*/
+}
 
 @media (max-width: 992px) {
 
@@ -243,17 +243,17 @@
 }
 
 #slide1 {
- background: url('../images/carousel_small_01.jpg') no-repeat;
+ background: url('../images/輪播1_M.png') no-repeat;
  background-size: cover;
 }
 
 #slide2 {
- background: url('../images/carousel_small_02.jpg') no-repeat;
+ background: url('../images/輪播2_M.png') no-repeat;
  background-size: cover;
 }
 
 #slide3 {
- background: url('../images/carousel_small_03.jpg') no-repeat;
+ background: url('../images/輪播3_M.png') no-repeat;
  background-size: cover;
 }
 }
