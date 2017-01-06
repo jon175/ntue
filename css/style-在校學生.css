@@ -52,6 +52,12 @@ color: #fff000;
   text-align: justify;
   font-family: "微軟正黑體";
   font-size: 20px;
+
+}
+
+.row a{
+
+  text-decoration: none;
 }
 
 .button a{
@@ -114,73 +120,33 @@ padding-bottom: 2px;
    row2
    -------------------------------------- */
    .row2{
-  
+
      margin-top: 20px;
+   }
+   .row2 p{
+
+     text-align: center;
+     margin: auto;
+     padding-top: 50px;
+     font-family: "華康行書體";
+   }
+   .row2 a{
+
+     text-align: center;
+     margin: auto;
+     font-family: "微軟正黑體";
    }
 
    .front{
      background-color: #efefef;
-     background-image: url("../pic/test1.jpg");
+     /*background-image: url("../pic/test1.jpg");*/
    }
 
-.card1{
-
-margin-right: 10px;
-
-}
-
-.card2{
-
-
-margin-right: 10px;
-}
-.card3{
-
-
-margin-right: 10px;
-}
-.card4{
-}
-/* entire container, keeps perspective */
-.flip-container {
-	perspective: 1000;
-}
-	/* flip the pane when hovered */
-	.flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateY(180deg);
-	}
-
-.flip-container, .front, .back {
+.front {
 	width: 365px;
 	height: 480px;
 }
 
-/* flip speed goes here */
-.flipper {
-	transition: 0.8s;
-	transform-style: preserve-3d;
-
-	position: relative;
-}
-
-/* hide back of pane during swap */
-.front, .back {
-	backface-visibility: hidden;
-
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-/* front pane, placed above back */
-.front {
-	z-index: 2;
-}
-
-/* back, initially hidden pane */
-.back {
-	transform: rotateY(180deg);
-}
 
 /* --------------------------------------
    row6

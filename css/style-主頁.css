@@ -96,7 +96,7 @@ padding-bottom: 2px;
    #myCarousel .item {height: 400px; }
 
    #slide1 {
-     background: url('../pic/輪播1_L.JPG')  no-repeat;
+     background: url('../pic/輪播1_L.png')  no-repeat;
      background-size: cover;
 
    }
@@ -128,7 +128,7 @@ padding-bottom: 2px;
   padding-bottom: 2px;
   width: 100%;
   width: 1000px;
-
+  box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
 }
 .row3 a{
   font-family: "華康行書體";
@@ -149,7 +149,7 @@ margin-top: 30px;
 background-color: #464646;
 padding-bottom: 20px;
 padding-bottom: 50px;
-
+  box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
 }
 
 
@@ -289,6 +289,7 @@ text-decoration: none;
   background-color: #efefef;
   background-repeat: no-repeat;
   background-size: cover;
+    box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
   /*width: 100%;*/
 }
 
@@ -322,6 +323,11 @@ text-decoration: none;
   padding-bottom: 20px;
   color: #ffffff;
   text-decoration: none;
+}
+
+.row5 img{
+
+    box-shadow:4px 4px 3px rgba(20%,20%,40%,0.8);
 }
 
 .button1 :hover{

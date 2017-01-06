@@ -13,14 +13,6 @@ padding:0;
 padding: 0px;
 }
 
-/*.container{
-  margin:0;
-  padding:0;
-  width:100%;
-  border-width: 1px;
-  border-color: #000000;
-  position: relative;
-}*/
 
 li{
   list-style: none;
@@ -102,7 +94,7 @@ text-align: center;
 width:100%;
 padding-top: 12px;
 padding-bottom: 2px;
-
+  box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
 }
 
 .row1 a{
@@ -119,7 +111,7 @@ padding-bottom: 2px;
   width: 100%;
   margin-bottom: 50px;
   background-color: #e7e7e7;
-
+  box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
 }
 
 .row2 img{
@@ -161,6 +153,7 @@ width: 260px;
      width: 100%;
      margin-bottom: 50px;
     background-color: #fafafa;
+      box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
    }
    .row3 p{
      text-align: center;
@@ -174,6 +167,7 @@ width: 260px;
    .row4{
      width: 100%;
      margin-bottom: 50px;
+       box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
    }
    .row4 h3{
 
@@ -199,14 +193,21 @@ margin-top: 60px;
     width: 100%;
     margin-bottom: 50px;
     background-color: #e4e2e3;
+      box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
   }
 .row5 p{
   margin-top: 30px;
-  line-height: 80px;
+  line-height: 70px;
+  margin-left: 30px;
 }
 .row5 h3{
 
   margin-top: 70px;
+}
+.map{
+    margin-top: 50px;
+    margin-left: 40px;
+    box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
 }
 /* --------------------------------------
    row6
