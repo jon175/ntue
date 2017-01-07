@@ -18,8 +18,13 @@ body {
      opacity: 0.5;
  }
 
- .logo{
+ img{
 margin-top: 150px;
+position: relative;
+margin-left: 530px;
+width:450px;
+height: 250px;
+z-index: 1;
  }
  p{
 
