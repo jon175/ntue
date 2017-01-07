@@ -8,3 +8,8 @@ $(document).on('ready', function() {
       slidesToScroll: 3
     });
   });
+
+
+  $(window).load(function(){
+          $('#loading').hide(1000);
+          });
