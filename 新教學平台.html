@@ -4,40 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <!-- 公設集 -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/script.js"></script>
-  <!-- Material Design Lite -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
-    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
-  <!-- bootstrap -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <script src="js/bootstrap.min.js"></script>
-  <!-- 公設集 -->
+<script src="js/jquery.min.js"></script>
+<script src="js/script-後台.js"></script>
+
+<!-- bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.min.js"></script>
+
+<!-- css -->
 <link type="text/css" rel="stylesheet" href="css/style-字型.css">
 <link type="text/css" rel="stylesheet" href="css/style-新教學平台.css">
+
 <!-- 文字 -->
 <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+<!-- slick -->
+<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
   <!-- icon -->
   <link rel="shortcut icon" href="pic/favicon.ico"/>
   <link rel="bookmark" href="pic/favicon.ico"/>
+  <!-- loading -->
+  <link rel="stylesheet" type="text/css" href="./css/load.css">
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
+
   <title>NTUE</title>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-90005735-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 </head>
 <body>
 
   <div class="container-fluid">
+
+    <div class=" row row-1">
+      <a href="index.html"><img src="pic/logo.png"></a>
+      <nav class="navbar navbar-default navbar-fixed-top">
 
   <div class="swe">
     <div class="navbar-header">
@@ -52,7 +55,7 @@
 
     <div class="navbar-collapse collapse" id="navbar-hanburger">
       <ul class="nav navbar-nav">
-        <li class="active "><a href="主頁.html" class="mdl-color-text--black">Home</a></li>
+        <li><a href="主頁.html">Home</a></li>
       </ul>
 
       <form class="navbar-form navbar-left" role="search" action="http://www.google.com/search" method="get">
@@ -63,30 +66,22 @@
       </form>
 
 
-      <ul class="nav navbar-nav navbar-right mdl-color-text--black">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user "></span> My account <strong class="caret"></strong></a>
-          <ul class="dropdown-menu">
-            <li><a href="#"><span class="glyphicon glyphicon-wrench"></span> Update Profile</a></li>
-            <li class="divider"></li>
-            <li><a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a></li>
-
-          </ul>
-        </li>
-      </ul><!-- end nav pull-right -->
+      <ul class="nav navbar-nav navbar-right">
+      
+      </ul>
 
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle mdl-color-text--black" data-toggle="dropdown"><span class="glyphicon glyphicon-tasks"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-tasks"></span></a>
           <ul class="dropdown-menu ">
 
                 <li><a href="關於國北.html" class="k ">關於國北</a></li>
                 <li><a href="學術單位.html" class="k">學術單位</a></li>
-                <li><a href="" class="k">行政單位</a></li>
-                <li><a href="" class="k">圖書館</a></li>
-                <li><a href="" class="k">華語文中心</a></li>
-                <li><a href="" class="k">推廣教育</a></li>
-                <li><a href="" class="k">招生資訊</a></li>
+                <li><a href="#" class="k">行政單位</a></li>
+                <li><a href="#" class="k">圖書館</a></li>
+                <li><a href="#" class="k">華語文中心</a></li>
+                <li><a href="#" class="k">推廣教育</a></li>
+                <li><a href="#" class="k">招生資訊</a></li>
                 <li class="divider"></li>
                 <li><a href="" class="k">未來學生</a></li>
                 <li><a href="" class="k">學生家長</a></li>
@@ -99,41 +94,67 @@
         </li>
       </ul><!-- end nav pull-right -->
     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container -->
 </nav>
-
-<!-- SIGNIN/UP MARKUP -->
-<div class="mdl-card mdl-shadow--2dp hover-shadow">
-  <div class="mdl-card__title mdl-color--grey-900 mdl-color-text--white">
-    <h2 class="mdl-card__title-text">新教學平台登入</h2>
-  </div>
-  <div class="mdl-card__supporting-text">
-
-    <!-- Sign/In/Out Form -->
-    <form action="#">
-      <div class="mdl-textfield mdl-js-textfield">
-        <input class="mdl-textfield__input" type="text" id="email">
-        <label class="mdl-textfield__label" for="email">E-mail</label>
-      </div>
-      <div class="mdl-textfield mdl-js-textfield">
-        <input class="mdl-textfield__input" type="password" id="password">
-        <label class="mdl-textfield__label" for="password">Password</label>
-      </div>
-    </form>
-
-
-
-    <!-- SignIn/SignOut Button -->
-    <button class="mdl-button mdl-js-button mdl-button--raised" id="btnSignIn">Sign In</button>
-    <button class="mdl-button mdl-js-button mdl-button--raised" id="btnSignUp">Sign Up</button>
-    <button class="mdl-button mdl-js-button mdl-button--raised " id ="btnSignOut">Sign Out</button>
-
-    <!-- Sign Information -->
-    <div class="mdl-card__supporting-text" id="sign-info">No one login...</div>
-  </div>
-</div><!-- mdl-card -->
-
 </div>
 
-</body>
+<nav class=" row row1" >
+  <ul class="list-inline">
+    <li><a href="關於國北.html" class="k">關於國北</a></li>
+    <li ><a class="line"></a></li>
+    <li><a href="學術單位.html" class="k">學術單位</a></li>
+    <li ><a class="line"></a></li>
+    <li><a href="" class="k">行政單位</a></li>
+    <li ><a class="line"></a></li>
+    <li><a href="" class="k">圖書館</a></li>
+    <li ><a class="line"></a></li>
+    <li><a href="" class="k">華語文中心</a></li>
+    <li ><a class="line"></a></li>
+    <li><a href="" class="k">推廣教育</a></li>
+    <li ><a class="line"></a></li>
+    <li><a href="" class="k">招生資訊</a></li>
+  </ul>
+</nav><!-- nav -->
+
+      <div class=" row row2">
+        <div id="header"><h1>新教學平台</h1></div>
+       <!-- SIGNIN/UP MARKUP -->
+       <div class="card">
+         <div class="">
+           <h2 class=""><h2>登入</h2>
+         </div>
+
+           <!-- Sign/In/Out Form -->
+           <form action="#">
+             <div class="">
+                <label class="" for="email">E-mail</label>
+               <input class="sch3" type="text" id="email">
+             </div>
+             <div class="">
+               <label class="e" for="password">Password</label>
+               <input class="sch3" type="password" id="password">
+             </div>
+           </form>
+
+           <!-- SignIn/SignOut Button -->
+           <button class="buttonstyle sch1" id="btnSignIn">Sign In</button>
+           <button class="buttonstyle sch2" id="btnSignUp">Sign Up</button>
+             <button class="mdl-button mdl-js-button mdl-button--raised " id ="btnSignOut">Sign Out</button>
+           <!-- Sign Information -->
+           <div class="" id="sign-info">No one login...</div>
+       </div><!-- mdl-card -->
+</div>
+
+      <footer>
+        <div class=" row row6">
+          <div class="col-md-4 fp o" ><img src="pic/logo1.png" ></div>
+          <div class="col-md-8 fl">
+            <ul>
+              <li><p>電話：+886-2-2732-1104  +886-2-6639-6688</p></li>
+              <li><p>地址：10671 臺北市大安區和平東路2段134號 </p> </li>
+          </ul>
+          </div>
+       </div>
+      </footer>
+  </div><!-- container-fluid -->
+  </body>
 </html>
