@@ -13,3 +13,5 @@ $(document).on('ready', function() {
   $(window).load(function(){
           $('#loading').hide(1000);
           });
+
+  

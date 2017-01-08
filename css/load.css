@@ -56,7 +56,7 @@ body {
 .loaderPill-pill {
     display: inline-block;
     box-sizing: border-box;
-    width:80px;height:80px;
+    width:70px;height:70px;
     border-radius:99em;
     background-color:#efefef;
     border: 1px solid #7f7f7f;
@@ -71,6 +71,7 @@ body {
 
 .loaderPill-floor-shadow {
     display: inline-block;
+    margin-top: 50px;
     width: 70px;
     height: 7px;
     border-radius: 50%;
