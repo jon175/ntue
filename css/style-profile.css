@@ -1,0 +1,173 @@
+/* --------------------------------------
+   公設
+   -------------------------------------- */
+
+body{
+width:100%;
+margin:0;
+padding:0;
+background-color: #ffdb89;
+}
+
+.row{
+
+  margin: 0px;
+}
+
+.card-list{
+border-radius: 6px;
+border: 2px solid #000000;
+width: 600px;
+margin: auto;
+margin-top: 40px;
+padding-bottom: 200px;
+box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
+background-color: #ffffff;
+}
+
+
+.card-list h2{
+  font-family: "華康行書體";
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+strong{
+
+  font-size: 18px;
+}
+
+.card-list .ph,.card-list .list{
+
+  /*text-align: center;*/
+  margin: auto;
+
+}
+
+.buttonstyle1{
+  position: absolute;
+  margin-top: 80px;
+box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
+border: 2px solid #000000;
+background-color: #ffffff;
+border-radius: 3px;
+margin-left: 75px;
+padding: 10px;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.buttonstyle2{
+  position: absolute;
+  margin-top: 80px;
+box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
+border: 2px solid #000000;
+background-color: #ffffff;
+border-radius: 3px;
+margin-left: 225px;
+padding: 10px;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.buttonstyle3{
+  position: absolute;
+  margin-top: 80px;
+box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
+border: 2px solid #000000;
+background-color: #ffffff;
+border-radius: 3px;
+margin-left: 375px;
+padding: 10px;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+.buttonstyle1:hover,.buttonstyle2:hover,.buttonstyle3:hover{
+
+    background-color: #efefef;
+}
+
+
+
+#sign-info {
+  color: #00BCD4;
+  font-size: 120%;
+}
+
+#user-info {
+  padding: 10px;
+  width: 216px;
+  box-sizing: border-box;
+}
+
+#user-pic {
+  padding:10px;
+  width: 72px;
+  box-sizing: border-box;
+}
+
+input(type="password") {
+  font:large;
+  font-size:150%;
+}
+
+.demo-avatar {
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+}
+.message-pic{
+  width:30px;
+  height:30px;
+  padding: 0px;
+  margin:0px 10px 0px 0px;
+}
+.userpic{
+  margin:0px 0px 0px 10px;
+}
+
+#user-info ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+#user-info ul li {
+    font-family: Roboto;
+    line-height: 24px;
+}
+
+#message-content ul {
+  list-style: none;
+  margin: 0px;
+  padding: 20px 20px 20px 0px;
+  height: 300px;
+  overflow: auto;
+}
+#message-content ul li {
+    font-family: Roboto;
+    font-size: 120%;
+    font-weight: 300;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+#message-content ul li:last-child {
+    margin: 0px;
+}
+#message-content ul .example-chat-username {
+    margin-right: 10px;
+}
+#message-content ul .usermessage{
+  margin-right: 0px;
+  margin-left: 10px;
+}
+.mine{
+  text-align: right;
+}
+.imginfo-color{
+  height:20px;
+  margin: 0px;
+  padding: 0px;
+  color:#fcb962;
+}

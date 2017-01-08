@@ -1,0 +1,240 @@
+* {
+  zoom: 1;
+  overflow: auto;
+}
+:before {
+  content: "";
+  display: table;
+}
+:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#header {
+  height: 68px;
+  width: 100%;
+  background: #16a085;
+  color: #1abc9c;
+  position: fixed;
+  top: 0;
+  padding: 0 4% 0;
+  display: table;
+  padding-right: 100px;
+  z-index: 1;
+}
+#header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  padding: 68px 0 0;
+  background: white;
+  position: relative;
+}
+
+.menu-icon {
+  width: 50px;
+  height: 50px;
+  min-width: 30px;
+  position: absolute;
+  cursor: pointer;
+  right: 20px;
+  top: 18px;
+  overflow: visible;
+}
+.menu-icon > div {
+  width: 100%;
+  height: 5px;
+  background: #11715E;
+  z-index: 5;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.menu-icon > div:nth-child(1) {
+  margin-bottom: 7px;
+}
+.menu-icon > div:nth-child(3) {
+  margin-top: 7px;
+}
+
+.menu-wrap {
+  width: 0px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #082B25;
+  z-index: 3;
+  padding-top: 68px;
+  overflow: visible;
+}
+.menu-wrap > ul {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.menu-wrap > ul > li {
+  position: relative;
+  min-height: 60px;
+  padding: 0 20px;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  background: #0C2722;
+  color: #336C62;
+  cursor: pointer;
+  overflow: hidden;
+  right: -260px;
+}
+.menu-wrap > ul > li:hover {
+  background: #0D3830;
+  color: #60968C;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.menu-wrap > ul > li:first-child {
+  background: #061E1A;
+  padding: 18px;
+  cursor: inherit;
+  right: 0px;
+  -webkit-box-shadow: inset 0px 2px 9px #011713;
+  box-shadow: inset 0px 2px 9px #011713;
+}
+
+.menulist:nth-child(2) {
+  -webkit-animation: menu 1s forwards;
+  animation: menu 1s forwards;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+.menulist:nth-child(3) {
+  -webkit-animation: menu 1s forwards;
+  animation: menu 1s forwards;
+  -webkit-animation-delay: 0.75s;
+  animation-delay: 0.75s;
+}
+
+.menulist:nth-child(4) {
+  -webkit-animation: menu 1s forwards;
+  animation: menu 1s forwards;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+@keyframes menu {
+  0% {
+    right: -260px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+@-webkit-keyframes menu {
+  0% {
+    right: -260px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+.profile-wrap {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.41);
+  overflow: hidden;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.profile {
+  width: 135px;
+  height: 136px;
+  background: #010E0C;
+  margin: 7px;
+  text-align: center;
+  overflow: hidden;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.pic-head {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  top: 28px;
+  background: #243E39;
+  left: 38px;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.pic-body {
+  position: relative;
+  width: 77px;
+  height: 84px;
+  top: 22px;
+  background: #243E39;
+  left: 30px;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.container > p {
+  font-size: 4rem;
+  position: relative;
+  top: 40vh;
+  overflow: hidden;
+}
+
+.menu-active > div {
+  -webkit-transform: rotate(45deg) translate(9px, 11px);
+  transform: rotate(45deg) translate(9px, 11px);
+}
+.menu-active > div:nth-child(2) {
+  opacity: 0;
+}
+.menu-active > div:nth-child(3) {
+  -webkit-transform: rotate(-45deg) translate(6px, -8px);
+  transform: rotate(-45deg) translate(6px, -8px);
+}
+
+.scale {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}

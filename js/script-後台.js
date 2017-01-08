@@ -104,7 +104,7 @@ $(document).ready(function(){
     });
     promise.then(function(){
       console.log('SignIn User');
-    window.location.href = "profile.html";
+    window.location.href = "./教學平台.html";
     });
   });
 
@@ -272,4 +272,4 @@ $(document).ready(function(){
             }
 
   });
-});   
+});

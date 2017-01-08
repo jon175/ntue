@@ -12,47 +12,46 @@
   <script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
 
   <!-- jQuery -->
-  <script src="js/jquery.js-後台"></script>
+  <script src="js/jquery.js"></script>
 
-  <!-- Material Design Lite -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
-  <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.min.js"></script>
 
   <!-- Custom -->
-  <script src="js/script.js"></script>
-  <link rel="stylesheet" href="css/style-新教學平台.css">
-
+  <script src="js/script-後台.js"></script>
+  <link rel="stylesheet" href="css/style-profile.css">
+  <link type="text/css" rel="stylesheet" href="css/style-字型.css">
 </end>
 <body>
 <!-- Profile MARKUP -->
-<div class="mdl-card mdl-shadow--2dp hover-shadow">
+<div class="container">
+      <div  class="card-list row">
+        <div class="">
+          <h2 class="">個人資料</h2>
+        </div>
 
-  <div class="mdl-card__title mdl-color--grey-900 mdl-color-text--white">
-    <h2 class="mdl-card__title-text">Profile</h2>
+        <div class="">
+          <div class="ph" id="user-pic">
+            <img src="" class="demo-avatar">
+          </div>
+
+          <div class="list" id="user-info">
+            <ul>
+              <li><strong>姓名</strong>: <span id="profile-name">N/A</span></li>
+              <li><strong>生日</strong>: <span id="profile-occupation">N/A</span></li>
+              <li><strong>Email</strong>: <span id="profile-email">N/A</span></li>
+              <li><strong>年齡</strong>: <span id="profile-age">N/A</span></li>
+              <li><strong>自傳</strong>: <span id="profile-descriptions">N/A</span></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <button class="buttonstyle1" id="btnProfile" onclick="self.location.href='edit.html'" >Edit profile</button>
+        <button class="buttonstyle2" id="btnGochat " onclick="self.location.href='教學平台.html'">Back stage</button>
+        <button class="buttonstyle3" id ="btnSignOut" onclick="self.location.href='登入.html'">Sign Out</button>
+      </div>
   </div>
-
-  <div class="mdl-grid">
-    <div class="mdl-card__supporting-text" id="user-pic">
-      <img src="" class="demo-avatar">
-    </div>
-
-    <div class="mdl-card__supporting-text" id="user-info">
-      <ul >
-        <li><strong>姓名</strong>: <span id="profile-name">N/A</span></li>
-        <li><strong>權限</strong>: <span id="profile-occupation">N/A</span></li>
-        <li><strong>Email</strong>: <span id="profile-email">N/A</span></li>
-        <li><strong>年齡</strong>: <span id="profile-age">N/A</span></li>
-        <li><strong>自傳</strong>: <span id="profile-descriptions">N/A</span></li>
-      </ul>
-    </div>
-
-  </div>
-
-  <button class="mdl-button mdl-js-button mdl-button--raised" id="btnProfile" onclick="self.location.href='edit.html'" >edit profile</button>
-  <button class="mdl-button mdl-js-button mdl-button--raised" id="btnGochat " onclick="self.location.href='chatroom.html'">go chat</button>
-  <button class="mdl-button mdl-js-button mdl-button--raised " id ="btnSignOut" onclick="self.location.href='新教學平台.html'">Sign Out</button>
-
-</div>
 </body>
 </html>
