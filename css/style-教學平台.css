@@ -17,6 +17,10 @@ body {
   width: 100%;
 }
 
+.container{
+  margin-right: 0px;
+  background-color: #efefef;
+}
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -29,7 +33,7 @@ body {
 #header {
   height: 68px;
   width: 100%;
-  background: #16a085;
+  background-color: #000000;
   color: #1abc9c;
   position: fixed;
   top: 0;
@@ -88,7 +92,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  background: #082B25;
+  background: #000000;
   z-index: 3;
   padding-top: 68px;
   overflow: visible;
@@ -188,26 +192,15 @@ body {
   border-radius: 100%;
 }
 
-.pic-head {
-  position: relative;
-  width: 60px;
-  height: 60px;
-  top: 28px;
-  background: #243E39;
-  left: 38px;
-  -webkit-border-radius: 100%;
-  border-radius: 100%;
+.a{
+
+  text-decoration: none;
+  color: #1abc9c;
 }
 
-.pic-body {
-  position: relative;
-  width: 77px;
-  height: 84px;
-  top: 22px;
-  background: #243E39;
-  left: 30px;
-  -webkit-border-radius: 100%;
-  border-radius: 100%;
+.a:hover{
+
+  text-decoration: none;
 }
 
 .container {
@@ -237,4 +230,40 @@ body {
 .scale {
   -webkit-transform: scale(1);
   transform: scale(1);
+}
+.card-lesson{
+  margin-top: 20px;
+  margin-left: 50px;
+  border-style: solid;
+  width:300px;
+  height: 300px;
+  border-radius: 5px;
+  background-color: #000000;
+  box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
+}
+
+.card-lesson a{
+color: #1abc9c;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 3px;
+}
+
+.card-lesson p{
+margin-top: 5px;
+color: #1abc9c;
+}
+
+.con{
+  margin-left: 23px;
+  border: 2px solid #000000;
+  width: 220px;
+  height:220px;
+  border-radius: 5px;
+  background-image: url("../pic/test.png");
+
+}
+
+.con:hover{
+  opacity: 0.5;
 }

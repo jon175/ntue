@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <script src="js/bootstrap.min.js"></script>
   <!-- Custom -->
+  <script src="js/script-後台.js"></script>
   <script src="js/script-教學平台.js"></script>
   <link rel="stylesheet" href="css/style-教學平台.css">
 
@@ -33,19 +34,18 @@
     <li>
       <div class="profile-wrap">
         <div class="profile">
-          <div class="pic-head"></div>
-          <div class="pic-body"></div>
+          <img scr="">
         </div>
       </div>
     </li>
     <li>
-      Name
+      <span id="profile-name">N/A</span>
     </li>
     <li>
-      <a href="profile.html">Go profile</a>
+      <a href="profile.html" class="a">個人資料</a>
     </li>
     <li>
-      <a href="登入.html">Log out</a>
+      <a href="登入.html" id ="btnSignOut" class="a">登出</a>
     </li>
   </ul>
 </div>
@@ -53,8 +53,27 @@
   <h1>新教學平台</h1>
 </header>
 <main id="main">
-  <div class="container">
-    <p>Hello World!!</p>
+  <div class="container row">
+    <div class="card-lesson col-lg-3">
+      <a href="#"><div class="con"></div></a>
+      <a>前端工程設計</a>
+      <p>開課老師:俞齊山老師</p>
+    </div>
+    <div class="card-lesson col-lg-3">
+      <a href="#"><div class="con"></div></a>
+      <a>電腦繪圖</a>
+      <p>開課老師:許一珍老師</p>
+    </div>
+    <div class="card-lesson col-lg-3">
+      <a href="#"><div class="con"></div></a>
+      <a>程式設計(三)</a>
+      <p>開課老師:王學武老師</p>
+    </div>
+    <div class="card-lesson col-lg-3">
+      <a href="#"><div class="con"></div></a>
+      <a>人機介面設計</a>
+      <p>開課老師:巴白山老師</p>
+    </div>
   </div>
 </main>
 <footer></footer>
