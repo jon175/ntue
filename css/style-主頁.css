@@ -422,19 +422,23 @@ text-decoration: none;
   }
 
   .slider .pic01:hover{
+    -webkit-transition: all ease 0.2s;
     transition: all ease 0.2s;
       opacity: 0.9;
   }
 
   .slider .pic02:hover{
+    -webkit-transition: all ease 0.2s;
     transition: all ease 0.2s;
       opacity: 0.9;
   }
   .slider .pic03:hover{
+    -webkit-transition: all ease 0.2s;
     transition: all ease 0.2s;
       opacity: 0.9;
   }
   .slider img:hover{
+    -webkit-transition: all ease 0.2s;
     transition: all ease 0.2s;
     opacity: 0.5;
     z-index: -20;

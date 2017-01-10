@@ -246,12 +246,7 @@ body {
 color: #1abc9c;
   text-decoration: none;
   font-size: 18px;
-  margin-top: 3px;
-}
-
-.card-lesson p{
-margin-top: 5px;
-color: #1abc9c;
+  margin-top: 10px;
 }
 
 .card-lesson a:hover{
@@ -272,4 +267,20 @@ color: #2addba;
   opacity: 0.5;
   -webkit-transition: all ease 0.2s;
   transition: all ease 0.2s;
+}
+
+button{
+ margin-top: 340px;
+  margin-left: -800px;
+}
+button a{
+
+  text-decoration: none;
+  color: #000000;
+}
+
+button a:hover{
+
+  text-decoration: none;
+  color: #000000;
 }

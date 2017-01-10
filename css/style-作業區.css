@@ -243,28 +243,31 @@ body {
 }
 
 .card-lesson a{
-color: #1abc9c;
+  color: #ffffff;
   text-decoration: none;
   font-size: 18px;
-  margin-top: 3px;
-}
-
-.card-lesson p{
-margin-top: 5px;
-color: #1abc9c;
+  margin-top: auto;
 }
 
 .card-lesson a:hover{
 color: #2addba;
 }
 
+.card-lesson p{
+margin-top: 20px;
+color: #ffffff;
+}
+
+
 .con{
-  margin-left: 23px;
+  margin-left: 18px;
   border: 2px solid #000000;
-  width: 220px;
-  height:220px;
-  border-radius: 5px;
-  background-image: url("../pic/test.png");
+  width: 230px;
+  height:230px;
+    border-radius: 5px;
+  background-color: #1abc9c;
+  margin-top: 32px;
+
 
 }
 
@@ -272,4 +275,19 @@ color: #2addba;
   opacity: 0.5;
   -webkit-transition: all ease 0.2s;
   transition: all ease 0.2s;
+}
+
+button{
+  margin-left: -800px;
+}
+button a{
+
+  text-decoration: none;
+  color: #000000;
+}
+
+button a:hover{
+
+  text-decoration: none;
+  color: #000000;
 }
