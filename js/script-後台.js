@@ -14,6 +14,7 @@ $(document).ready(function(){
   var dbUser = firebase.database().ref().child('user');
 
   var photoURL;
+  var dataURL;
   var $img = $('img');
 
   // REGISTER DOM ELEMENTS
@@ -26,6 +27,7 @@ $(document).ready(function(){
   const $btnSubmit = $('#btnSubmit');
   const $signInfo = $('#sign-info');
   const $file = $('#file');
+
   //
   const $profileName = $('#profile-name');
   const $profileEmail = $('#profile-email');
@@ -38,15 +40,9 @@ $(document).ready(function(){
     const $messageList = $('#example-messages');
     const $message = $('#example-messages');
 
-  // Hovershadow
-  $hovershadow.hover(
-    function(){
-      $(this).addClass("mdl-shadow--4dp");
-    },
-    function(){
-      $(this).removeClass("mdl-shadow--4dp");
-    }
-  );
+//
+const $textfile = $('#homework');
+const $btnload = $('#btnload');
 
   var storageRef = firebase.storage().ref();
 
@@ -72,7 +68,11 @@ $(document).ready(function(){
       // [END onfailure]
     });
     // [END oncomplete]
+
+
   }
+
+
 
   window.onload = function() {
     $file.change(handleFileSelect);
@@ -251,6 +251,29 @@ $(document).ready(function(){
       window.location.href = "./profile.html";
 
     });
+});
+
+// Load
+$btnSubmit.click(function(){
+  var user = firebase.auth().currentUser;
+  const $userName = $('#userName').val();
+  const userName = $('#userName').val();
+
+  const promise = user.updateProfile({
+    displayName: $userName,
+    dataURL: dataURL
+  });
+  promise.then(function() {
+
+    console.log("Update successful.");
+    user = firebase.auth().currentUser;
+    if (user) {
+      console.log(user.uid);
+       $img.attr("src",user.dataURL);
+    };
+    window.location.href = "./作業區.html";
+
+  });
 });
 
 // LISTEN FOR KEYPRESS EVENT
