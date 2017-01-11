@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>新教學平台</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  
   <!-- Roboto Font -->
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
 
@@ -17,7 +16,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <script src="js/bootstrap.min.js"></script>
   <!-- Custom -->
-  <script src="js/script-後台.js"></script>
+  <!-- <script src="js/script-後台.js"></script> -->
   <script src="js/script-教學平台.js"></script>
   <script src="js/script-上傳.js"></script>
   <link rel="stylesheet" href="css/style-上傳.css">
@@ -62,8 +61,8 @@
       <form>
       <div class="con">
         <h3>你的檔案: </h3>
-        <input type="file" id="homework" name="homework"/>
-        <button class="buttonstyle" id="btnload" >上傳</button>
+        <input type="file" value="upload" id="fileButton"/>
+        <progress value="0" max="100" id="uploader">0%</progress>
         <button><a href="作業區.html">回上頁</a></button>
       </div>
       </form>
