@@ -23,4 +23,14 @@ $('.menu-icon').click(function() {
     $('.menu-wrap>ul>li').addClass('menulist');
   }
 });
-});   
+
+    $('.jk1').click(function() {
+      window.location = 'profile.html';
+      return false;
+    });
+
+    $('.jk2').click(function() {
+      window.location = '登入.html';
+      return false;
+    });
+});
