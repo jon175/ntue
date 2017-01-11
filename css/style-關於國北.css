@@ -70,10 +70,12 @@ color: #fff000;
 
   margin-top: 30px;
   margin-left: 30px;
+  font-family: "微軟正黑體";
+  font-size: 16px;
 }
 
 .bread a{
-  
+
   text-decoration: none;
 }
 /* --------------------------------------
@@ -118,8 +120,10 @@ padding-bottom: 2px;
    row2
    -------------------------------------- */
 .row2{
-  margin-top: 20px;
-  width: 100%;
+ margin:0px auto;
+  width: 97%;
+
+  margin-left: 24px;
   margin-bottom: 50px;
   background-color: #e7e7e7;
   box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
@@ -161,9 +165,10 @@ width: 260px;
    -------------------------------------- */
 
    .row3{
-     width: 100%;
+     width: 97%;
+     margin:0px auto;
      margin-bottom: 50px;
-    background-color: #fafafa;
+    background-color: #d8d8d8;
       box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
    }
    .row3 p{
@@ -176,7 +181,9 @@ width: 260px;
       row4
    -------------------------------------- */
    .row4{
-     width: 100%;
+     width: 97%;
+     border: 1px solid #efefef;
+      margin:0px auto;
      margin-bottom: 50px;
        box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
    }
@@ -201,7 +208,9 @@ margin-top: 60px;
          row5
    -------------------------------------- */
 .row5{
-    width: 100%;
+  width: 97%;
+
+   margin:0px auto;
     margin-bottom: 50px;
     background-color: #e4e2e3;
       box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);

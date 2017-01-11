@@ -38,6 +38,8 @@ color: #fff000;
 
   margin-top: 30px;
   margin-left: 30px;
+  font-family: "微軟正黑體";
+  font-size: 16px;
 }
 
 .bread a{
@@ -90,10 +92,12 @@ padding-bottom: 2px;
    -------------------------------------- */
 
     .row2{
-      margin-top: 30px;
-      padding-bottom: 20px;
+      margin: 0px auto;
+      width: 97%;
+      margin-top: 20px;
+      padding-bottom: 26px;
       background-color: #efefef;
-        box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
+      box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
     }
    #header{
      height: 120px;
@@ -236,9 +240,9 @@ padding-bottom: 2px;
 
    .row6{
      background-color: #7f7f7f;
-   padding-bottom: 24px;
-   padding-top: 20px;
-   margin-top: 30px;
+   padding-bottom: 26px;
+   padding-top: 10px;
+   margin-top: 40px;
    width: 100%;
   box-shadow:4px 4px 3px rgba(20%,20%,40%,0.3);
    }

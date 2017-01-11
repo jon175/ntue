@@ -77,6 +77,8 @@ color: #fff000;
 
   margin-top: 30px;
   margin-left: 30px;
+  font-family: "微軟正黑體";
+  font-size: 16px;
 }
 
 .bread a{
@@ -125,7 +127,8 @@ padding-bottom: 2px;
    row2
    -------------------------------------- */
 .row2{
-  width: 100%;
+  margin: 0px auto;
+  width: 97%;
   margin-bottom: 65px;
   margin-top:22px;
   background-color: #fafafa;
@@ -139,9 +142,9 @@ padding-bottom: 2px;
 
 .row6{
   background-color: #7f7f7f;
-padding-bottom: 10px;
 padding-top: 20px;
-margin-top: 30px;
+padding-bottom: 1px;
+margin-top: -4px;
 width: 100%;
 
 }

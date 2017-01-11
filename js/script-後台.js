@@ -68,10 +68,35 @@ const $btnload = $('#btnload');
       // [END onfailure]
     });
     // [END oncomplete]
+  }
+
+// load
+
+  function handleFileSelect(evt) {
+    evt.stopPropagation();
+    evt.preventDefault();
+    var homework = evt.target.files[0];
+
+    var metadata = {
+      'contentType': file.type
+    };
+
+    // Push to child path.
+    // [START oncomplete]
+    storageRef.child('datas/' + file.name).put(homework, metadata).then(function(snapshot) {
+      console.log('Uploaded', snapshot.totalBytes, 'bytes.');
+      console.log(snapshot.metadata);
+      dataURL = snapshot.metadata.downloadURLs[0];
+      console.log('File available at', dataURL);
+    }).catch(function(error) {
+      // [START onfailure]
+      console.error('Upload failed:', error);
+      // [END onfailure]
+    });
+    // [END oncomplete]
 
 
   }
-
 
 
   window.onload = function() {
