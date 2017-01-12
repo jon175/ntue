@@ -13,11 +13,10 @@ p{
 }
 
 p, ul{
-	font-family:"微軟正黑體";
+	font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-size-adjust:0.488;
 	font-weight:200;
 	font-style:normal;
-	line-height: 30px;
 }
 
 img{
@@ -32,11 +31,10 @@ h1, #pixels{
 }
 
 h2{
-	font-family:"華康行書體";
-	font-size:36px;
+	font-family:"Beau Sans Pro Book", Verdana, sans-serif;
+	font-size-adjust:0.531;
 	font-weight:500;
 	font-style:normal;
-	margin-top: -40px;
 }
 
 #header h1, #pixels{
@@ -59,6 +57,15 @@ h2{
 	text-align: center;
 }
 
+.bum{
+
+margin-left: 400px;
+margin-top: 100px;
+}
+
+
+
+
 #nav{
 	list-style: none;
 	position: fixed;
@@ -74,8 +81,9 @@ h2{
 }
 
 #intro{
-	background:url("../images/形象1.png") 50% 0 no-repeat fixed ;
+	background:url("../pic/blue.png") 50% 0 no-repeat fixed ;
 	background-size:cover;
+	/*background: #f2f2f2;*/
 	color: black;
 	height: 800px;
 	margin: 0 auto;
@@ -84,7 +92,7 @@ h2{
 }
 
 #second{
-	background: url("../images/形象2.png") 50% 0 no-repeat fixed;
+	background: url("../pic/聖.png") 50% 0 no-repeat fixed ;
 	background-size:cover;
 	color: black;
 	height: 800px;
@@ -96,45 +104,42 @@ h2{
 
 
 #third{
-	background: url("../images/形象3.png") 50% 0 no-repeat fixed;
+	background: url("../pic/丰.png") 50% 0 no-repeat fixed;
 	background-size:cover;
 	color: black;
-	height: 900px;
+	height: 700px;
 	padding: 100px 0 0 0;
 	background-position: 50% 348px;
 }
 
-#fifth{
-	background: #7f7f7f;
-	height: 60px;
-	margin: 0 auto;
 
-	padding: 20px 0 0 0;
-}
-
-#fifth:hover{
-  background: #606060;
-}
-
-.kf{
-  color: #ffffff;
-	text-align: center;
-	margin: auto;
-		margin-top: 16px;
-}
-
-
-.kf a{
-  color: #ffffff;
-	text-decoration: none;
-
-}
 
 .story{
 	margin: 0 auto;
 	min-width: 980px;
 	overflow: auto;
 	width: 980px;
+}
+
+.story h2{
+	font-family: "華康行書體";
+	font-size: 50px;
+}
+
+.story p{
+	font-family: "華康行書體";
+	font-size: 28px;
+}
+
+.story a{
+	font-family: "華康行書體";
+	font-size: 36px;
+	text-decoration: none;
+}
+
+.logo h2{
+	font-family: "華康行書體";
+	font-size: 120px;
 }
 
 .story .float-left, .story .float-right{

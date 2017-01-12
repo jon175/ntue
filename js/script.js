@@ -7,11 +7,10 @@ $(document).on('ready', function() {
       slidesToShow: 3,
       slidesToScroll: 3
     });
+
   });
 
 
   $(window).load(function(){
           $('#loading').hide(1000);
           });
-
-  
